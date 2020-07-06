@@ -15,6 +15,7 @@ public class Utils{
 	static {
 		try {
 			prop = new Properties();
+			String current = System.getProperty("user.dir");
 			FileInputStream ip = new FileInputStream(
 					current + "\\src\\main\\config.properties");
 			prop.load(ip);
