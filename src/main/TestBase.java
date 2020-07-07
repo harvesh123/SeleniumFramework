@@ -24,8 +24,9 @@ public class TestBase {
 		String browserName = Utils.getPropertyValue("BROWSER");
 
 		if (browserName.equals("chrome")) {
+			String current = System.getProperty("user.dir");
 			System.setProperty("webdriver.chrome.driver",
-					"C:\\Users\\harve\\Downloads\\TestFramework\\chromedriver.exe");
+					current + "//chromedriver.exe");
 			ChromeOptions options = new ChromeOptions();
 			options.addArguments("--incognito");
 			options.addArguments("--disable-extensions");

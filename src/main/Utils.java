@@ -15,8 +15,9 @@ public class Utils{
 	static {
 		try {
 			prop = new Properties();
+			String current = System.getProperty("user.dir");
 			FileInputStream ip = new FileInputStream(
-					"C:\\Users\\harve\\Downloads\\TestFramework\\src\\main\\config.properties");
+					current + "//src//main//config.properties");
 			prop.load(ip);
 		} catch (FileNotFoundException e) {
 			e.printStackTrace();
