@@ -20,7 +20,7 @@ public class LoginPageTest extends TestBase {
 		initialize();
 
 	}
-
+	//Commit
 	@Test // (priority = 1)
 	public void loginPageTitleTest() {
 		LoginPage loginpage = PageFactory.initElements(driver, LoginPage.class);
