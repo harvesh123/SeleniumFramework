@@ -36,7 +36,7 @@
 				<version>2.18.1</version>
 				<configuration>
 					<suiteXmlFiles>
-						<!-- TestNG suite XML files for Run -->
+						<!-- TestNG suite XML files for Run for QA Branch commit -->
 						<suiteXmlFile>testng.xml</suiteXmlFile>
 					</suiteXmlFiles>
 				</configuration>
