@@ -12,7 +12,7 @@ public class LoginPage {
 		this.driver = driver;
 	}
 
-	// Locators
+	// Locators for Home Page
 	@FindBy(id = "username") WebElement username;
 	@FindBy(id = "password") WebElement password;
 	@FindBy(id = "Login") WebElement Login;
