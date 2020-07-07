@@ -54,7 +54,7 @@
 			<artifactId>testng</artifactId>
 			<version>6.8.8</version>
 		</dependency>
-		<!-- https://mvnrepository.com/artifact/org.apache.poi/poi -->
+		<!-- https://mvnrepository.com/artifact/org.apache.poi/poi for API and test-->
 	<dependency>
     <groupId>org.apache.poi</groupId>
     <artifactId>poi</artifactId>
