@@ -3,6 +3,8 @@ package pages;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 
+import main.CommonActions;
+
 
 public class HomePage{
 
@@ -20,7 +22,7 @@ public class HomePage{
 	}
 
 	public void clickOpportunities() {
-		opportunitiesSelection.click();
+		CommonActions.jsClick(opportunitiesSelection);
 	}
 
 	public void recentCreatedOpportunities() {
