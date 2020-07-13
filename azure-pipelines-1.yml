@@ -6,8 +6,8 @@
 trigger:
 - master
 
-pool:
-  vmImage: 'window'
+pool: Window
+  vmImage: 'Window'
 
 steps:
 - task: Maven@3
